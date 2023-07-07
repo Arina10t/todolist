@@ -1,0 +1,14 @@
+.empty{
+    border-radius: 7px;
+    border: 1px solid pink;
+    width: 18px;
+    height: 18px;
+}
+
+.fill{
+    border-radius: 7px;
+    border: 1px solid pink;
+    width: 18px;
+    height: 18px;
+    background-color: pink;
+}

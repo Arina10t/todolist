@@ -1,0 +1,45 @@
+.task{
+    display: flex;
+    align-items: center;
+    background-color: rgb(101, 101, 101);
+    margin-bottom: 10px;
+    border-radius: 7px;
+    padding: 5px;
+    width: 100%;
+}
+
+.btnDelete{
+    background: none;
+    border: none;
+    padding-top: 5px;
+    color: white;
+    margin-left: auto;
+}
+/* rgb(216 226 247) */
+
+.btnDelete:hover{
+    color:red;
+}
+
+.btnIsDone{
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    /* отображаем курсор в виде руки при наведении; некоторые
+    считают, что необходимо оставлять стрелочный вид для кнопок */
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+}
+.titleInProgress{
+    margin-left: 5px;
+    color: white;
+}
+
+.titleIsDone{
+    margin-left: 5px;
+    text-decoration: line-through;
+    color: white;
+}

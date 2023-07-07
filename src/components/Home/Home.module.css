@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 40px;
+    background-color: rgb(236, 149, 247);
+    padding: 40px 0;
+    border-radius: 7px;
+}
+
+.tasksInput{
+    display: flex;
+    flex-direction: column;
+    justify-self: left;
+    width: 80%;
+}
+
+h1{
+    color: #eaf590;
+    margin-top: 0;
+    -webkit-text-stroke: 1px rgb(101, 101, 101);
+}

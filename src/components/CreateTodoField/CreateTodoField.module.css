@@ -1,0 +1,11 @@
+.addInput{
+   background: rgb(226, 214, 231);
+   margin-top: 15px;
+   border-radius: 7px;
+   width: 100%;
+   border: none;
+   padding: 7.5px 5px;
+   font-size: 16px;
+   margin-top: 40px;
+   color: rgb(101, 101, 101);
+}
