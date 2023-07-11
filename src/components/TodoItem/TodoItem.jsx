@@ -6,11 +6,12 @@ import style from './TodoItem.module.css'
 
 export default function TodoItem({ task, changeDone, deleteTask}) {
 
-  const className = task.done ? style.titleIsDone : style.titleInProgress;
+  const className = task.isDone ? style.titleIsDone : style.titleInProgress;
   return (
     <div className={style.task}>
-      <button className={style.btnIsDone} onClick={() => changeDone(task)}>
-        <CheckBox done = {task.done}/>
+      {/* <button className={style.btnIsDone} onClick={() => changeDone(task)}> */}
+			<button className={style.btnIsDone} onClick={() => changeDone(task.id)}>
+        <CheckBox done = {task.isDone}/>
       </button>
       <span className = {className}>{task.title}</span>
       <button className={style.btnDelete} onClick={() => deleteTask(task.id)}>
